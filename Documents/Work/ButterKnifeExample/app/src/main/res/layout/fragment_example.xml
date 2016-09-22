@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    android:clickable="true">
+
+    <TextView
+        android:text="Am I inside Fragment?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fragment_example_text_view"
+        android:layout_marginTop="100dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textAlignment="center"/>
+
+    <Button
+        android:text="Find out!"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/fragment_example_text_view"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fragment_example_button"
+        android:layout_margin="50dp"/>
+</RelativeLayout>
